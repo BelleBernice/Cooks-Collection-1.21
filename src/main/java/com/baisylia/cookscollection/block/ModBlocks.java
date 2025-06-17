@@ -53,11 +53,11 @@ public class ModBlocks {
             () -> new RusticLoafBlock(BlockBehaviour.Properties.ofFullCopy(vectorwing.farmersdelight.common.registry.ModBlocks.APPLE_PIE.get()).noOcclusion(),
                     ModItems.RUSTIC_LOAF_SLICE));
 
-    public static final DeferredBlock<Block> SALTED_POINTED_DRIPSTONE = BLOCKS.register("salted_pointed_dripstone",
-            () -> new SaltedPointedDripstone(BlockBehaviour.Properties.ofFullCopy(Blocks.POINTED_DRIPSTONE).noOcclusion()
-                    .sound(SoundType.POINTED_DRIPSTONE).randomTicks().strength(1.5F, 3.0F).dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ))
+   // public static final DeferredBlock<Block> SALTED_POINTED_DRIPSTONE = BLOCKS.register("salted_pointed_dripstone",
+    //        () -> new SaltedPointedDripstone(BlockBehaviour.Properties.ofFullCopy(Blocks.POINTED_DRIPSTONE).noOcclusion()
+   //                 .sound(SoundType.POINTED_DRIPSTONE).randomTicks().strength(1.5F, 3.0F).dynamicShape().offsetType(BlockBehaviour.OffsetType.XZ))
     //,FarmersDelight.CREATIVE_TAB, false, 0
-    );
+   // );
 
     public static final DeferredBlock<Block> SALTED_DRIPSTONE_BLOCK = registerBlock("salted_dripstone_block",
             () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.DRIPSTONE_BLOCK).noOcclusion()));
